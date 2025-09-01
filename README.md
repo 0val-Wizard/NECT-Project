@@ -3,8 +3,9 @@ Network and Cloud Technology (NECT) project covered the theoretical and practica
 
 
 My NECT consisted of 2 components;
- 1) NECT Case study 
- 2) NECT Project
+ 1) NECT Report Case Study
+ 2) NECT Presentation + Setup
+ 3) Demo of my Setup
 
 
 --------------------------
