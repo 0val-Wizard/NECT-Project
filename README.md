@@ -7,6 +7,9 @@ My NECT consisted of 2 components;
  2) NECT Presentation + Setup
  3) Demo of my Setup
 
+**Network Design (Logical Topology)** 
+[seen down again too]
+<img width="1880" height="723" alt="image" src="https://github.com/user-attachments/assets/f2d64688-9268-406f-a9b2-fdb638d9b014" />
 
 --------------------------
 
