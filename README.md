@@ -9,7 +9,7 @@ My NECT consisted of 2 components;
 
 --------------
 
-## 1) NECT Presentation
+## 1) NECT Presentation/Project
 
 **Network Design (Logical Topology)**
 <img width="1880" height="723" alt="image" src="https://github.com/user-attachments/assets/f2d64688-9268-406f-a9b2-fdb638d9b014" />
