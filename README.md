@@ -7,13 +7,84 @@ My NECT consisted of 2 components;
  2) NECT Presentation + Setup
  3) Demo of my Setup
 
-**Network Design (Logical Topology)** 
-[seen down again too]
+--------------
+
+## 1) NECT Presentation
+
+**Network Design (Logical Topology)**
 <img width="1880" height="723" alt="image" src="https://github.com/user-attachments/assets/f2d64688-9268-406f-a9b2-fdb638d9b014" />
+
+
+### Overview
+- Designed a smart home network for the Green Family.
+- Covered: assumptions, AWS services, network design (wired & wireless), file/printer sharing, and sustainability proposals.
+
+### Scenario & Assumptions
+- 3-level house, main router on 2nd floor, mesh routers + switches for seamless coverage.
+- IoT devices bought recently and CLS certified for security.
+- Solar panels are planned as an alternate energy source.
+- Family uses AWS free tier for cloud storage.
+- Mostly working from home, requiring easy administrative tools.
+
+### AWS Cloud Services
+#### Networking
+- Amazon VPC: Created logically isolated sections, subnets for security, and resource management.
+
+#### Storage
+- Amazon S3: Centralized, secure storage.
+- Used for:
+ - IoT data
+ - Security camera recordings
+ - Shared family files
+
+#### Security
+- AWS IAM: Managed users, permissions, and auditing.
+- Amazon Cognito: Enabled secure authentication (MFA, OAuth2.0) and cross-device sync.
+
+### Network Design
+#### Wireless Connectivity
+- Solar Panel: High-quality panel installed, supplies 20–25% of energy needs.
+- Webcams: Capture intruders, secure rooms.
+- Smart Doors: Restrict unauthorized access.
+- Smartphones/Laptops: Control IoT devices via AWS cloud.
+
+#### Wired Connectivity
+- Home Gateway: Bridges IoT devices with router/cloud.
+- Access Point: Expands Wi-Fi coverage and balances load.
+- Mesh Routers: Eliminate dead zones across levels.
+- Switches: Improve local performance, connect multiple devices.
+- Modem: Provides ISP internet access.
+
+#### File & Printer Sharing
+- Printer connected via home router and Google Cloud Print.
+- Allowed remote printing and sharing across devices.
+
+### Sustainability Proposals
+#### Shubham
+- Higher device density → reduced redundancy, energy savings.
+- Recycle old devices responsibly.
+- Use Dynamic Routing Protocols to optimize traffic and cut energy use.
+
+#### Xin Yu
+- Automatic timers for AC and IoT devices.
+- Solar panel with attic battery storage.
+- Energy Star-certified networking equipment.
+
+#### Tevian
+- Energy-efficient switches to reduce power waste.
+- Low-energy entertainment system (smart TVs, smart power strips).
+
+#### Yi Jie
+- Edge computing for IoT devices (process data locally, save bandwidth).
+- Low-power IoT protocols (e.g., Zigbee) to extend device battery life and cut environmental impact.
+
+----------------------
+
+
 
 --------------------------
 
-## 1) NECT Report Case Study
+## 2) NECT Report Case Study
 
 #### Network Implementation
   ##### Logical Topology
@@ -97,82 +168,6 @@ My NECT consisted of 2 components;
   - Integration of IoT with AWS services.
   - Strong focus on cybersecurity, cloud authentication, and encryption.
     Sustainable energy strategies to minimize environmental impact.
-
---------------
-
-## 2) NECT Presentation
-
-**Network Design (Logical Topology)**
-<img width="1880" height="723" alt="image" src="https://github.com/user-attachments/assets/f2d64688-9268-406f-a9b2-fdb638d9b014" />
-
-
-### Overview
-- Designed a smart home network for the Green Family.
-- Covered: assumptions, AWS services, network design (wired & wireless), file/printer sharing, and sustainability proposals.
-
-### Scenario & Assumptions
-- 3-level house, main router on 2nd floor, mesh routers + switches for seamless coverage.
-- IoT devices bought recently and CLS certified for security.
-- Solar panels are planned as an alternate energy source.
-- Family uses AWS free tier for cloud storage.
-- Mostly working from home, requiring easy administrative tools.
-
-### AWS Cloud Services
-#### Networking
-- Amazon VPC: Created logically isolated sections, subnets for security, and resource management.
-
-#### Storage
-- Amazon S3: Centralized, secure storage.
-- Used for:
- - IoT data
- - Security camera recordings
- - Shared family files
-
-#### Security
-- AWS IAM: Managed users, permissions, and auditing.
-- Amazon Cognito: Enabled secure authentication (MFA, OAuth2.0) and cross-device sync.
-
-### Network Design
-#### Wireless Connectivity
-- Solar Panel: High-quality panel installed, supplies 20–25% of energy needs.
-- Webcams: Capture intruders, secure rooms.
-- Smart Doors: Restrict unauthorized access.
-- Smartphones/Laptops: Control IoT devices via AWS cloud.
-
-#### Wired Connectivity
-- Home Gateway: Bridges IoT devices with router/cloud.
-- Access Point: Expands Wi-Fi coverage and balances load.
-- Mesh Routers: Eliminate dead zones across levels.
-- Switches: Improve local performance, connect multiple devices.
-- Modem: Provides ISP internet access.
-
-#### File & Printer Sharing
-- Printer connected via home router and Google Cloud Print.
-- Allowed remote printing and sharing across devices.
-
-### Sustainability Proposals
-#### Shubham
-- Higher device density → reduced redundancy, energy savings.
-- Recycle old devices responsibly.
-- Use Dynamic Routing Protocols to optimize traffic and cut energy use.
-
-#### Xin Yu
-- Automatic timers for AC and IoT devices.
-- Solar panel with attic battery storage.
-- Energy Star-certified networking equipment.
-
-#### Tevian
-- Energy-efficient switches to reduce power waste.
-- Low-energy entertainment system (smart TVs, smart power strips).
-
-#### Yi Jie
-- Edge computing for IoT devices (process data locally, save bandwidth).
-- Low-power IoT protocols (e.g., Zigbee) to extend device battery life and cut environmental impact.
-
-
-
-
-
 
 
 
